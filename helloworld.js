@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('Hello World\nThis is my first NODE js application on AWS!\n Thanks for visiting,\nSam G.')
+   response.end('Hello World\nThis is my first NODE js application on AWS!\nThanks for visiting,\nSam G.')
 }).listen(3000)
 
 // Console will print the message
